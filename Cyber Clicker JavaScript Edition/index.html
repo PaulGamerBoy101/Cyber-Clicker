@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyber Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.js"></script>
+</head>
+<body onload="brython()">
+    <div id="game-container">
+        <div class="container">
+            <div id="score-box">Computer Chips: <span id="score">0</span></div>
+            <div id="pps-display">Points per Second: <span id="points-per-second">0</span></div>
+
+            <div class="image-box">
+                <img id="clicker" src="https://codehs.com/uploads/1c6875a3427a26490fbe87dedb2e51ab" alt="Click me" style="cursor: pointer;"/>
+            </div>
+            <div id="counts-display">
+                <p><b>Mouse Count:</b> <span id="mouse-count">0</span></p>
+                <p><b>Auto Clicker Count:</b> <span id="auto-clicker-count">0</span></p>
+                <p><b>Keyboard Count:</b> <span id="keyboard-count">0</span></p>
+            </div>
+        </div>
+
+        <div id="upgrades-menu">
+            <h3>Upgrades</h3>
+            <ul>
+                <li data-upgrade="auto-clicker" onclick="purchaseUpgrade(2)"><b>Auto Clicker</b> (Gives .5 Computer Chips per Second) - 50 Computer Chips</li>
+                <li data-upgrade="mouse" onclick="purchaseUpgrade(1)"><b>Mouse</b> (Gives An Additional 1 Computer Chip Per Click) - 100 Computer Chips</li>
+                <li data-upgrade="keyboard" data-type="3" data-cost="350.5" onclick="purchaseUpgrade(3)"><b>Keyboard</b> (Gives An Additional 3 Computer Chips Per Second) - 350.5 Cookies</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="clicker_game.js"></script>
+
+</body>
+
+
+</html>

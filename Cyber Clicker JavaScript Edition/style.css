@@ -1,0 +1,76 @@
+body {
+    font-family: 'Knewave', sans-serif; 
+    text-align: center;
+    background-color: #FFF8E7; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    color: #3E3E3E; /* A soft, dark color for text */
+    background-image: url(https://user-images.githubusercontent.com/169328/62211026-6f480280-b395-11e9-9d64-cd059663054b.gif);
+    background-size: cover;
+}
+
+.container, #upgrades-menu, #counts-display, #pps-display {
+    background-color: #FEECBD; 
+    border: 3px solid #DEB887; 
+    border-radius: 50px;
+    box-shadow: 5px 5px 0px #DAA520; 
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+#score-box, #counts-display, #pps-display {
+    margin: 10px 0;
+    font-size: 22px; /* Larger font for better visibility */
+}
+
+#score, #mouse-count, #auto-clicker-count, #keyboard-count, #points-per-second {
+    font-weight: bold;
+    color: #8B4513; /* A darker brown for emphasis */
+}
+
+.image-box {
+    margin: 20px 0;
+}
+
+#clicker {
+    cursor: pointer;
+    transition: transform 0.1s ease; /* Smooth transition for a responsive feel */
+}
+
+#clicker:active {
+    transform: scale(0.95); /* Slightly shrink the image when clicked for a tactile feel */
+}
+
+#upgrades-menu ul {
+    list-style-type: none; /* No bullets for a cleaner look */
+    padding: 0;
+}
+
+#upgrades-menu li {
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px; /* Rounded corners for the list items */
+}
+
+#upgrades-menu li:hover {
+    background-color: #F5DEB3; /* A lighter color on hover for interactivity */
+    color: #8B4513; /* Change text color on hover for better visibility */
+}
+
+@keyframes wobble {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(-5deg); }
+    75% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.wobble-effect {
+    animation: wobble 0.8s ease;
+}
