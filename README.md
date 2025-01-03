@@ -1,9 +1,11 @@
-## Releases Will Be in Folders in The Repository. They Will NOT be listed in Releases.(At the Time of The Creation of This Repositry I Did Not Understand How Releases Worked, I Am Just Too Lazy to Reorganize the Repository & Create Releases.)
+## Releases Will Be in Folders in The Repository. They Will NOT be listed in Releases. 
+
+> (At the Time of The Creation of This Repositry I Did Not Understand How Releases Worked, I Am Just Too Lazy to Reorganize the Repository & Create Releases. This Also Makes It So That Users Can Download All Versions at One Or Download A Specific Version)
 
 
 # Cyber-Clicker
 
-The Classic Cookie Clicker Game Has been Changed With a Fun Twist. Cookies are Now Computer Chips, Golden Cookies are Now Lucky Computer Chips, Sugar lumps are Now Golden Computer Ships. All The Buildings Are Now Computer Parts/Accessories. Upgrades include Increased Computer Chips Per Second, Increased Computer Chips Per Click, & More.  
+> The Classic Cookie Clicker Game Has been Changed With a Fun Twist. Cookies are Now Computer Chips, Golden Cookies are Now Lucky Computer Chips, Sugar lumps are Now Golden Computer Ships. All The Buildings Are Now Computer Parts/Accessories. Upgrades include Increased Computer Chips Per Second, Increased Computer Chips Per Click, & More.  
 
 ### Version 1:
 
