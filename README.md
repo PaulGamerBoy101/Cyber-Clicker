@@ -1,4 +1,4 @@
-## Releases Will Be in Folders in The Repository. They Will NOT be listed in Releases.(It is to comlpicated to make a new release the way github has set it up to be made.)
+## Releases Will Be in Folders in The Repository. They Will NOT be listed in Releases.(At the Time of The Creation of This Repositry I Did Not Understand How Releases Worked, I Am Just Too Lazy to Reorganize the Repository & Create Releases.)
 
 
 # Cyber-Clicker
@@ -19,11 +19,17 @@ The Classic Cookie Clicker Game Has been Changed With a Fun Twist. Cookies are N
 •Better Sprites  
 •(Made Using Orteil/DashNet Idle-Game-Maker)  
 
-### JavaScript Edition:
+### JavaScript Edition Version 1:
 
 •Simplified Version  
 •Made From Scratch (With Help From ChatGPT)  
 •Uses HTML, JS & CSS  
+
+### Python Edition Version 1:
+
+•Converted the Whole thing to Python
+•No Images Except for Emoji Outlines
+•Color Pallet is the Same
 
 <br></br>
 
